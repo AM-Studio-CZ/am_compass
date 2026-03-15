@@ -3,3 +3,5 @@
 am_compass is **standalone** script for simple UI menu showing compass
 
 /compass - Toggle compass UI
+
+![photo](am_compass/images/img.png)
