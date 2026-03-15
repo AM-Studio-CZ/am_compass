@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Serif', sans-serif;
+}
+
+#compass-container {
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(24, 25, 43, 0.5);
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 2.5px solid #0e0f1d;
+}
+
+#direction {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.8);
+    transition: all 1s linear;
+}
